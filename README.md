@@ -35,8 +35,8 @@ Las tecnologías utilizadas se irán agregando según los temas vistos en clase.
 
 ## 📧 Contacto
 
-**Simón Enrique Zapata Claros**
-senzapata-2024a@corhuila.edu.co
+**Simón Enrique Zapata Claros**  
+senzapata-2024a@corhuila.edu.co  
 Corporación Universitaria del Huila - CORHUILA
 
 ---
