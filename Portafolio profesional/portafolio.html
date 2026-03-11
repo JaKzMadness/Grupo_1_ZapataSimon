@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio/CV  - Ingeniero Mecatrónico</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome para iconos -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Css Personalizado-->
+    <link rel="stylesheet" href="styles-portafolio.css" />
+  </head>
+  <body>
+    <!--==========================
+    BARRA DE NAVEGACIÓN
+    =============================-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#inicio">
+          <i class="fas fa-code"></i> Simón<span>.Dev</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#inicio" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#acerca" class="nav-link">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a href="#habilidades" class="nav-link">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experiencia" class="nav-link">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a href="#proyectos" class="nav-link">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#educacion" class="nav-link">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacto" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--==========================
+    SECCIÓN HEROE
+    =============================-->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <!--Imágen de perfil-->
+        <svg
+          class="hero-image"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="200" height="200" fill="#3498db" />
+          <circle cx="100" cy="70" r="35" fill="#ecf0f1" />
+          <ellipse cx="100" cy="140" rx="50" ry="45" fill="#ecf0f1" />
+        </svg>
+        <h1>Simón Enrique Zapata Claros</h1>
+        <p class="subtitle">Ingeniero Mecatrónico</p>
+        <p class="description">
+          Ingeniero recién egresado de la Corporación Universitaria
+          del Huila - CORHUILA con fuerte conocimiento en programación
+          y diseño 3D, con un enfoque a la robotica y la automatización
+        </p>
+        <a href="#contacto" class="btn btn-primary-custom">Comunicate conmigo</a>
+      </div>
+    </section>
+    <!--==========================
+    ACERCA DE MÍ
+    =============================-->
+    <section id="acerca" class="about">
+      <div class="container">
+        <h2 class="section-title">Acerca de mí</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Poseo habilidades blandas que fortalecen mi desempeño en entornos académicos y profesionales, 
+              como la capacidad de trabajo en equipo, la comunicación efectiva y el pensamiento analítico 
+              para abordar y resolver problemas de manera organizada. 
+            </p>
+            <p>
+              Me caracterizo por ser una persona 
+              responsable, adaptable y comprometida con el aprendizaje continuo, lo que me permite enfrentar 
+              nuevos retos con iniciativa y mantener una actitud proactiva en el desarrollo de proyectos 
+              y actividades profesionales.
+            </p>
+          </div>
+          <div>
+            <ul class="info-list">
+              <li><strong>Nombre:</strong> Simón Enrique Zapata Claros</li>
+              <li><strong>Profesión:</strong> Ingeniero Mecatrónico</li>
+              <li><strong>Email:</strong> Jacksonnm311@gmail.com</li>
+              <li><strong>Teléfono:</strong> +57 (320) 2772511</li>
+              <li><strong>Ubicación:</strong> Neiva, Colombia</li>
+              <li><strong>Disponibilidad:</strong> Inmediata</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==========================
+    HABILIDADES
+    =============================-->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <!--Frontend-->
+                <div class="skill-card" data-skill="frontend">
+                    <h4><i class="fas fa-code"></i>Frontend</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Javascript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Bootstrap</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Backend-->
+                <div class="skill-card" data-skill="backend">
+                    <h4><i class="fas fa-database"></i>Backend</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>NodeJS</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Express</span>
+                            <span>86%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDb</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SQL</span>
+                            <span>83%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Herramientas-->
+                <div class="skill-card" data-skill="tools">
+                    <h4><i class="fas fa-tools"></i>Herramientas</h4>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git/GitHub</span>
+                            <span>93%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vscode</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>API REST</span>
+                            <span>89%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--target: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Script personalizado-->
+    <script src="script-portafolio.js"></script>
+
+</body>
+</html>
